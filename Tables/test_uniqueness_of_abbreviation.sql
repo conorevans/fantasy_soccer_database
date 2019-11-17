@@ -1,0 +1,1 @@
+INSERT INTO team VALUES('abcdefg', NULL, 'Premier League', 'ARS')

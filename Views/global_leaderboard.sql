@@ -1,4 +1,3 @@
-DROP VIEW global_leaderboard;
 CREATE VIEW global_leaderboard
 AS
 SELECT ft.`name`, ft.logo, u.username, ft.points_total

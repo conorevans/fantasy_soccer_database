@@ -1,0 +1,1 @@
+GRANT SELECT ON fl_2_personal_details TO 'jangirl'@'localhost';

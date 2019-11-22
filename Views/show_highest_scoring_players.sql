@@ -1,0 +1,1 @@
+SELECT * FROM highest_scoring_players;

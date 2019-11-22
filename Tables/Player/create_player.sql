@@ -7,7 +7,7 @@ CREATE TABLE player(
   lname VARCHAR(255) NOT NULL,
   position VARCHAR(255) NOT NULL,
   team_name VARCHAR(255) NOT NULL,
-  CONSTRAINT valid_position CHECK (position IN ('goalkeeper','defender','midfielder','forward')),
   PRIMARY KEY(id),
-  FOREIGN KEY(team_name) REFERENCES team(name)
+  FOREIGN KEY(team_name) REFERENCES team(name),
+  FOREIGN KEY(position) REFERENCES `position`(name)
 );

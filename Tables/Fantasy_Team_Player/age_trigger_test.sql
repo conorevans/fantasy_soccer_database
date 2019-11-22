@@ -1,0 +1,1 @@
+INSERT INTO fantasy_team_player VALUES(6,10);

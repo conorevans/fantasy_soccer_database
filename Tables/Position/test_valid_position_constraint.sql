@@ -1,1 +1,0 @@
-INSERT INTO player VALUES(NULL,'1990-04-12', NULL, 4.25, 'Conor', 'Heffernan', 'not a valid position', 'Arsenal');

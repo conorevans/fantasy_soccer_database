@@ -1,2 +1,2 @@
-ALTER TABLE team 
-ADD abbreviation varchar(3) UNIQUE;
+ALTER TABLE team
+ADD COLUMN abbreviation char(3) UNIQUE;

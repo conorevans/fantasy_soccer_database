@@ -1,2 +1,2 @@
 ALTER TABLE fantasy_team
-ADD COLUMN points_total INT NOT NULL DEFAULT(0);
+ADD COLUMN points_total INT DEFAULT(0);

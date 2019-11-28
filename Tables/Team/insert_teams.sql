@@ -1,4 +1,4 @@
-INSERT INTO team VALUES('Arsenal', NULL, 'Premier League');
+INSERT INTO team VALUES('Arsenal', NULL, 'Premier League', 'ARS');
 INSERT INTO team VALUES('Liverpool', NULL, 'Premier League', 'LIV');
 INSERT INTO team VALUES('Leicester City', NULL, 'Premier League', 'LEI');
 INSERT INTO team VALUES('Chelsea', NULL, 'Premier League','CHE');

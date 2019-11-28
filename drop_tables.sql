@@ -1,0 +1,12 @@
+DROP TABLE event;
+DROP TABLE event_type;
+DROP TABLE gameweek;
+DROP TABLE fantasy_team_player;
+DROP TABLE fantasy_league_fantasy_team;
+DROP TABLE user;
+DROP TABLE fantasy_team;
+DROP TABLE fantasy_league;
+DROP TABLE player;
+DROP TABLE position;
+DROP TABLE team;
+DROP TABLE league;

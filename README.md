@@ -28,9 +28,23 @@ Fantasy_Team_Player/max_num_players_from_team_trigger.sql
 Gameweek/cant_unfinish_gameweek_trigger.sql
 Gameweek/tally_points_trigger.sql
 
-Once these are added, you can test insertions/updates
+Each of these triggers has an accompanying test SQL file which you may run to test them.
+
+Once these are added, you can test insertions/updates:
+
 NOTE: some insertions might fail due to an arity mismatch, this is because an ALTER TABLE ADD COLUMN was
 added at some point between this insertion and the remaining insertions. I left these in there to show how
 UPDATE was used to set values for these newly added attributes for tuples who had been added before the
 attribute was part of the table schema.
+
+Each insertion/update follow the format of
+
+TABLE/insert_table.sql
+TABLE/update_attribute_of_tuple.sql
+
+The lone procedure is stored in PROCEDURES/ and you may use CALL with a parameter that is an existing username in the DB. 
+If you need a sample parameter, run
+SELECT * FROM fantasy_soccer.user;
+
+Views and access granting are then under the VIEWS/ folder.
 

@@ -1,3 +1,5 @@
+Link to github: https://github.com/conorevans/fantasy_soccer_database
+
 ## All SQL stuff is split into individual files but order is as follows:
 
 create_tables.sql

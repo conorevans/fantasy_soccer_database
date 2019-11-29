@@ -1,4 +1,3 @@
-INSERT INTO fantasy_team_player VALUES(6,1);
 INSERT INTO fantasy_team_player VALUES(6,3);
 INSERT INTO fantasy_team_player VALUES(6,5);
 INSERT INTO fantasy_team_player VALUES(6,8);

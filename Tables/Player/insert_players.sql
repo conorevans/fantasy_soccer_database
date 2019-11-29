@@ -4,7 +4,6 @@ INSERT INTO player VALUES(NULL,'1996-03-11', NULL, 3.95, 'Jonah', 'Rafferty', 'D
 INSERT INTO player VALUES(NULL,'1992-04-24', NULL, 5.25, 'Gilberto', 'Da Silva', 'Defender', 'Chelsea');
 INSERT INTO player VALUES(NULL,'1995-09-28', NULL, 4.25, 'Albert', 'Tierney', 'Defender', 'Arsenal');
 INSERT INTO player VALUES(NULL,'1983-08-03', NULL, 7.45, 'Alejandro', 'Lopez', 'Defender', 'Arsenal');
-INSERT INTO player VALUES(NULL,'1988-09-01', NULL, 3.95, 'Gerard', 'Roe', 'Defender', 'Bournemouth');
 INSERT INTO player VALUES(NULL,'1981-07-22', NULL, 5.25, 'Christian', 'Bale', 'Midfielder', 'Arsenal');
 INSERT INTO player VALUES(NULL,'1987-08-19', NULL, 4.25, 'Manuel', 'Herrera', 'Midfielder', 'Leicester City');
 INSERT INTO player VALUES(NULL,'1980-06-10', NULL, 7.45, 'Jay', 'Pritchett', 'Midfielder', 'Arsenal');

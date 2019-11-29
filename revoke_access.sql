@@ -1,0 +1,2 @@
+REVOKE ALL PRIVILEGES, GRANT OPTION
+FROM 'jangirl'@'localhost';
